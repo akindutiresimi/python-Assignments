@@ -4,14 +4,14 @@
 #and if y is equal to zero
 
 
-x = int (input("enter number"))
+number_one = int (input("enter number"))
 
-y = int (input("enter number"))
+number_two = int (input("enter number"))
 
-xy = int (x / y)
+number_three = int (number_one / y)
 
-if y != 0:
-	print(xy)
+if number_two != 0:
+	print(number_three)
 
 else:
 	print("cannot divide by zero")
