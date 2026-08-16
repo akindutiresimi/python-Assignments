@@ -5,5 +5,7 @@ def fahrenheit(celsius):
 
 
 
-fahrenheit(32)
-print(fahrenheit(32))
+print ("celsius \t\t fahrenheit")
+for celsius in range(0, 100 + 1):
+
+    print("Celsius of", celsius, "\t\t", (fahrenheit(celsius)))
