@@ -40,7 +40,7 @@
 #def is_perfect_square(number):
 #    return (number * 0.5) % 1 == 0
 #
-#print([map(is_perfect_square, number))])
+#print(map(is_perfect_square, number))
 #
 #
 #
