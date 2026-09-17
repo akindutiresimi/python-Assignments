@@ -94,11 +94,22 @@ print("product", product)
 number = [3,7,2,9,1]
 from functools import reduce 
 def maximum_in_number(number, maximum):
-    maximum = 0    
-    return number > maximum
+      
+    return max(number, maximum)
 
 maximum = reduce(maximum_in_number, number)
 print("maximum", maximum)
+
+
+
+#13
+number = [1, 2, 3]
+from functools import reduce 
+def total_of_square_addition(number, add): 
+    return number + addition ** 2
+
+total = reduce(total_of_square_addition, number)
+print("addition", total)
 
 
 
